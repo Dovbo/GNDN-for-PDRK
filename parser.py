@@ -9,12 +9,9 @@ import re
 
 URL = 'http://www.0629.com.ua/catalog/41/page/'
 ITEM_PATH = '.conteiner .company_box .info'
- 
-
 
 def parse_courses():
-	n = 1
-	while n < 17:
+	for n in range(17):
 		f = urlopen(URL + str(n))
 		list_html = f.read().decode('utf-8')
 		list_doc = fromstring(list_html)
@@ -35,20 +32,16 @@ def parse_courses():
 				text_length = len(a.text) - 3
 				name  = a.text[0:text_length]
 				
-				org = {'name': name, 'address': address}
+				with open('results.csv', 'a') as f:
+					f.write('%s,%s/n' %(name, address))
+				
+				# org = {'name': name, 'address': address}
 			# btn_grey button loader
-				print(org)
+				# print(org)
 			# else:
 			#	print('!!!!!!!!!!!!!!!!' + address[0:10])
-		n += 1
 
-
-
-
-
-def main():
-	parse_courses()
 
 
 if __name__ == '__main__':
-	main()
+	parse_courses()
