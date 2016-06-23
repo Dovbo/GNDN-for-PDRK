@@ -2,17 +2,17 @@
 
 # GEOCODER FOR ACTS PROJECT
 # Date: Jun 22, 2016
-# Version: 0.2.0-dev.1
+# Version: 0.2.0-dev.2
 
 import sys
 import argparse
 from urllib2 import urlopen
-from json import load, dump
+from json import load, dumps
 
 
 def SetInputFiles():
     input_files = argparse.ArgumentParser()
-    input_files.add_argument ("--file", "-f", nargs = "+", default = ["test.csv"])
+    input_files.add_argument ("--file", "-f", nargs = "+", default = ["results.csv"])
     return input_files
 
 def YA_geocode(address):
@@ -22,8 +22,8 @@ def YA_geocode(address):
     response = urlopen(url)
     json_obj = load(response)
     list = json_obj['response']['GeoObjectCollection']['featureMember'][0]['GeoObject']['Point']['pos'].split(" ")
-    coords.append(float(list[1]))
     coords.append(float(list[0]))
+    coords.append(float(list[1]))
     return coords
     
 if __name__ == "__main__":
@@ -55,3 +55,7 @@ if __name__ == "__main__":
     for object in geojson['features']:
         address = object['properties']['address']
         object['geometry']['coordinates'] = YA_geocode(address)
+    
+    writter = dumps(geojson)
+    with open("geocode-result.geojson", "w") as file:
+        file.write(writter)
