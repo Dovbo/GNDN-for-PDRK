@@ -1,47 +1,57 @@
-# -*- encoding: UTF-8 -*-
+# -*- coding: utf-8 -*-
 
-# geocoder for ACTS project
-# date: Jun 21, 2016
-# version: 0.1.0-dev.1
+# GEOCODER FOR ACTS PROJECT
+# Date: Jun 22, 2016
+# Version: 0.2.0-dev.1
 
+import sys
+import argparse
 from urllib2 import urlopen
-from json import load
+from json import load, dump
 
-def geocoder(list):
-    # function gets a list of {name: "OrganizationTitle", address: "OrganizationAddress"}
-    # function returns a geojson object
-    result = []
+
+def SetInputFiles():
+    input_files = argparse.ArgumentParser()
+    input_files.add_argument ("--file", "-f", nargs = "+", default = ["test.csv"])
+    return input_files
+
+def YA_geocode(address):
+    coords = []
     base_url = "https://geocode-maps.yandex.ru/1.x/?format=json&geocode="
+    url = base_url + address.replace(" ", "+") + "/"
+    response = urlopen(url)
+    json_obj = load(response)
+    list = json_obj['response']['GeoObjectCollection']['featureMember'][0]['GeoObject']['Point']['pos'].split(" ")
+    coords.append(float(list[1]))
+    coords.append(float(list[0]))
+    return coords
     
-    # geocoding
-    for item in list:
-        
-        url = base_url + item['address'].replace(' ','+') + '/'
-        response = urlopen(url)
-        json_obj = load(response)
-        result.append(json_obj['response']['GeoObjectCollection']['featureMember'][0]['GeoObject']['Point']['pos'])
-        # responsing json structure:
-            # response {}
-                # GeoObjectCollection {}
-                    # featureMember [] (!!!list!!! "found" check needed)
-                        # GeoObject
-                            # point {}
-    print result
-    return result
-
-
-test_list = [
-    {
-        "name" : "",
-        "address" : "площадь Свободы, 5, (1 подъезд, 2 этаж), Харьков, Харьковская область"
-    },
-    {
-        "name" : "",
-        "address" : "улица Цезаря Кюи, 44, Харьков, Харьковская область"
-    },
-    {
-        "name": "",
-        "address": "улица Золочевская, 6, Харьков, Харьковская область"
-    }
-]
-coords = geocoder(test_list)
+if __name__ == "__main__":
+    args = SetInputFiles()
+    input_files = args.parse_args(sys.argv[1::])
+    geojson = {"type": "FeatureCollection", "features": []}
+    for filename in input_files.file:
+        print filename
+        with open(filename, "r") as file:
+            reader = file.readline()
+            while len(reader) > 0:
+                geopoint={
+                    "type": "Feature",
+                    "properties": {
+                        
+                    },
+                    "geometry": {
+                        "type": "Point"
+                    }
+                }
+                if ";" in reader:
+                    div = reader.find(";")
+                    geopoint["properties"]["address"] = city + ", " + reader[:div]
+                    geopoint["properties"]["name"] = reader[div+1:].replace("\n", "")
+                    geojson["features"].append(geopoint)
+                elif reader != "\n":
+                    city = reader.replace("\n", "")
+                reader = file.readline()
+    for object in geojson['features']:
+        address = object['properties']['address']
+        object['geometry']['coordinates'] = YA_geocode(address)
