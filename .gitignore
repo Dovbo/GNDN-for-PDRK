@@ -1,3 +1,4 @@
 *.csv
 local_settings.py
-
+*.swp
+__pycache__/
