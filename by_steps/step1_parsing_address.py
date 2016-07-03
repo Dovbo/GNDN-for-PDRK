@@ -32,9 +32,10 @@ def get_cities():
 
 
 def process_city(url):
-    print('process_city ', url)
     main_page = custom_request(url + '/catalog')
     main_soup = BeautifulSoup(main_page.content, "html.parser")
+    city_name = main_soup.find_all(attrs={"name": "keywords"})[0].get('content').split(' ')[2]
+    print('process_city ', city_name, url)
 
     # url is always same, /catalog/41 , but in case if not:
 
@@ -44,9 +45,8 @@ def process_city(url):
     # state_services_url = state_services[0].parent.get('href')
 
     service_categories = main_soup.find_all("div", {'data-pid': "41"})[0].find_all('a')
-    city_code = re.findall(r'\d+', url)[0]
-    with open(os.path.join(results_dir, city_code + '.json'), 'w') as with_address_fl,\
-        open(os.path.join(results_dir, city_code + '_no_address.csv'), 'w') as no_address_fl:
+    with open(os.path.join(results_dir, city_name + '.json'), 'w') as with_address_fl, \
+        open(os.path.join(results_dir, city_name + '_no_address.csv'), 'w') as no_address_fl:
 
         services = {}
 
@@ -69,34 +69,34 @@ def process_city(url):
                     break
 
             for service in service_boxes:
+                name = service.find_all('a')[0].get_text().strip()
                 try:
                     address = service.find_all('div', 'contacts gray_box rounding')[0].find_all('p')[0].get_text()
-                    if not any(c.isalpha() for c in address) or not any(c.isdigit() for c in address):
+                    if not address or \
+                        not any(c.isalpha() for c in address) or \
+                            not any(c.isdigit() for c in address):
+
                         service_row = '%s|%s|%s\n' % (
-                            service.find_all('a')[0].get_text().strip(),
-                            address,
-                            category_name)
+                            name, address, category_name)
                         no_address_fl.write(service_row)
 
-                    name = service.find_all('a')[0].get_text().strip()
-                    for single_address in address.split('\r\n'):
-                        if single_address in services:
-                            services[single_address]['orgs'].append({
-                                'name': name,
-                                'category': category_name
-                            })
-                        else:
-                            services[single_address] = {}
-                            services[single_address]['orgs'] = [{
-                                'name': name,
-                                'category': category_name
-                            }]
+                    else:
+                        for single_address in address.split('\r\n'):
+                            if single_address in services:
+                                services[single_address]['orgs'].append({
+                                    'name': name,
+                                    'category': category_name
+                                })
+                            else:
+                                services[single_address] = {}
+                                services[single_address]['orgs'] = [{
+                                    'name': name,
+                                    'category': category_name
+                                }]
 
                 except IndexError:
                     service_row = '%s|%s|%s\n' % (
-                        service.find_all('a')[0].get_text().strip(),
-                        '',
-                        category_name)
+                        name, '', category_name)
                     no_address_fl.write(service_row)
 
         with_address_fl.write(json.dumps(services, indent=4, ensure_ascii=False))
@@ -115,7 +115,7 @@ def launcher():
         process_city(url)
         print('processed in', datetime .datetime.now() - start, '\n')
 
-    # process_city('http://www.057.ua')
+    # process_city('http://www.061.ua')
 
 if __name__ == '__main__':
     launcher()
