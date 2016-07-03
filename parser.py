@@ -1,6 +1,7 @@
 from urllib.request import urlopen
 from urllib.parse import urljoin
 from lxml.html import fromstring
+from local_settings import *
 
 import urllib.request
 import csv
@@ -9,12 +10,6 @@ import time
 import random
 
 street_types = [u'улица',u'проспект', u'проезд', u'бульвар', u'площадь', u'переулок', u'квартал', u'шоссе', u'пос', u'тупик', u'набережная', u'ул.', u'вулиця', u'площа', u'шоссе', u'пр.', u'набережна', u'спуск', u'балка', u'пл.', u'мкр.', u'м-н', u'микрорайон', u'пр-т', u'провулок', u'шосе', u'квартал', u'пер.', u'кв.', u'поселок']
-PARENT_URL = '<parent url>'
-LOCAL_URL = '<local url>'
-ITEM_PATH = '<item path>'
-RESULTS = 'results.csv'
-NO_ADDRESS = 'no_address.csv'
-PHONE_ONLY = 'phone_only.csv'
 
 def parse_city():
 	for n in range(41):
@@ -23,7 +18,7 @@ def parse_city():
 		time.sleep(random.random() / 100)
 		list_html = f.read().decode('utf-8')
 		list_doc = fromstring(list_html)
-		#print(list_doc)
+
 		for elem in list_doc.cssselect(ITEM_PATH):
 			p = elem.cssselect('p')[0]
 			if p.text is None:
@@ -80,7 +75,6 @@ for site in fromstring(urlopen(parent_req).read()).cssselect('a'):
 			f.write('\n%s\n\n' %(city_name))
 		with open(PHONE_ONLY, 'a') as f:
 			f.write('\n%s\n\n' %(city_name))
-		print(title, '\n')
 		print(u'%s processing...\n' %(city_name))
 		parse_city()
 
