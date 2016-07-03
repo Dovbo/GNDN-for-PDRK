@@ -1,7 +1,7 @@
 import os
 import time
 import random
-import re
+# import re
 import datetime
 import json
 from bs4 import BeautifulSoup
@@ -9,7 +9,7 @@ import requests
 
 import local_settings
 
-headers = {'User-Agent': 'My User Agent 1.0'}
+headers = {'User-Agent': 'Corruption Tracker'}
 results_dir = 'step1_results'
 
 if not os.path.exists(results_dir):
@@ -45,9 +45,7 @@ def process_city(url):
     # state_services_url = state_services[0].parent.get('href')
 
     service_categories = main_soup.find_all("div", {'data-pid': "41"})[0].find_all('a')
-    with open(os.path.join(results_dir, city_name + '.json'), 'w') as with_address_fl, \
-        open(os.path.join(results_dir, city_name + '_no_address.csv'), 'w') as no_address_fl:
-
+    with open(os.path.join(results_dir, city_name + '_no_address.csv'), 'w') as no_address_fl:
         services = {}
 
         for category in service_categories:
@@ -99,7 +97,8 @@ def process_city(url):
                         name, '', category_name)
                     no_address_fl.write(service_row)
 
-        with_address_fl.write(json.dumps(services, indent=4, ensure_ascii=False))
+        with open(os.path.join(results_dir, city_name + '.json'), 'w') as fl:
+            fl.write(json.dumps(services, indent=4, ensure_ascii=False))
 
 
 def launcher():
