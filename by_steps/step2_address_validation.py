@@ -13,26 +13,23 @@ class Step2(stepper.Stepper):
 
     def get_items(self):
         address_files = os.listdir(self.prev_step_results)
-        json_items = [os.path.join(self.prev_step_results, x) for x in address_files if x.endswith('.json')]
-        csv_items = [os.path.join(self.prev_step_results, x) for x in address_files if x.endswith('.csv')]
+        items = [os.path.join(self.prev_step_results, x) for x in address_files if x.endswith('.json')]
+        return items
 
-        return [json_items, csv_items]
-
-    def process_city(self, items):
-        json_file = items[0]
-        csv_file = items[1]
-
-        city_name, addresses = self.json_opener(json_file)
+    def process_city(self, filename):
+        city_name, addresses = self.json_opener(filename)
         valid, skipped = {}, {}
 
         for address in addresses:
 
-            # krov kishki raspidorasilo with addreds
-
-            if True:
-                valid[address] = addresses[address]
-            else:
+            # krov kishki raspidorasilo with addresses
+            if not address or \
+                not any(c.isalpha() for c in address) or \
+                    not any(c.isdigit() for c in address):
                 skipped[address] = addresses[address]
+            else:
+                valid[address] = addresses[address]
+            # end of krov kishki raspidorasilo with addresses
 
         with open(os.path.join(self.results_dir, city_name + '.json'), 'w') as fl:
             fl.write(json.dumps(valid, indent=4, ensure_ascii=False))

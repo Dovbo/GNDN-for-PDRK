@@ -66,27 +66,18 @@ class Step1(stepper.Stepper):
                     name = service.find_all('a')[0].get_text().strip()
                     try:
                         address = service.find_all('div', 'contacts gray_box rounding')[0].find_all('p')[0].get_text()
-                        if not address or \
-                            not any(c.isalpha() for c in address) or \
-                                not any(c.isdigit() for c in address):
-
-                            service_row = '%s|%s|%s\n' % (
-                                name, address, category_name)
-                            no_address_fl.write(service_row)
-
-                        else:
-                            for single_address in address.split('\r\n'):
-                                if single_address in services:
-                                    services[single_address]['orgs'].append({
-                                        'name': name,
-                                        'category': category_name
-                                    })
-                                else:
-                                    services[single_address] = {}
-                                    services[single_address]['orgs'] = [{
-                                        'name': name,
-                                        'category': category_name
-                                    }]
+                        for single_address in address.split('\r\n'):
+                            if single_address in services:
+                                services[single_address]['orgs'].append({
+                                    'name': name,
+                                    'category': category_name
+                                })
+                            else:
+                                services[single_address] = {}
+                                services[single_address]['orgs'] = [{
+                                    'name': name,
+                                    'category': category_name
+                                }]
 
                     except IndexError:
                         service_row = '%s|%s|%s\n' % (
