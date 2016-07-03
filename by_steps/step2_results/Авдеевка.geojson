@@ -1,0 +1,157 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+        {
+            "properties": {
+                "orgs": [
+                    {
+                        "name": "Відділ державної виконавчої служби Авдіївського міського управління юстиції",
+                        "category": "Исполнительные службы"
+                    }
+                ],
+                "address": "улица Комунальна, 6"
+            },
+            "geometry": {
+                "coordinates": [
+                    37.736464,
+                    48.134006
+                ],
+                "type": "Point"
+            },
+            "type": "Feature"
+        },
+        {
+            "properties": {
+                "orgs": [
+                    {
+                        "name": "Укрпочта",
+                        "category": "Госучереждения Авдеевки"
+                    }
+                ],
+                "address": "улица Карла Маркса, 1"
+            },
+            "geometry": {
+                "coordinates": [
+                    44.549144,
+                    39.957454
+                ],
+                "type": "Point"
+            },
+            "type": "Feature"
+        },
+        {
+            "properties": {
+                "orgs": [
+                    {
+                        "name": "Авдеевский городской совет",
+                        "category": "Госучереждения Авдеевки"
+                    }
+                ],
+                "address": "улица Молодежная, 5"
+            },
+            "geometry": {
+                "coordinates": [
+                    37.746687,
+                    48.133772
+                ],
+                "type": "Point"
+            },
+            "type": "Feature"
+        },
+        {
+            "properties": {
+                "orgs": [
+                    {
+                        "name": "Укрпочта",
+                        "category": "Госучереждения Авдеевки"
+                    }
+                ],
+                "address": "улица Елагина, 1"
+            },
+            "geometry": {
+                "coordinates": [
+                    37.75638,
+                    48.127493
+                ],
+                "type": "Point"
+            },
+            "type": "Feature"
+        },
+        {
+            "properties": {
+                "orgs": [
+                    {
+                        "name": "Авдеевский железнодорожный вокзал",
+                        "category": "Ж/Д вокзал"
+                    }
+                ],
+                "address": "улица Героев, 57/1"
+            },
+            "geometry": {
+                "coordinates": [
+                    37.73668,
+                    48.147089
+                ],
+                "type": "Point"
+            },
+            "type": "Feature"
+        },
+        {
+            "properties": {
+                "orgs": [
+                    {
+                        "name": "Укрпочта",
+                        "category": "Госучереждения Авдеевки"
+                    }
+                ],
+                "address": "улица Мира, 46"
+            },
+            "geometry": {
+                "coordinates": [
+                    37.7547,
+                    48.145725
+                ],
+                "type": "Point"
+            },
+            "type": "Feature"
+        },
+        {
+            "properties": {
+                "orgs": [
+                    {
+                        "name": "Городской суд",
+                        "category": "Госучереждения Авдеевки"
+                    }
+                ],
+                "address": "улица Коммунальная, 14"
+            },
+            "geometry": {
+                "coordinates": [
+                    37.734138,
+                    48.131781
+                ],
+                "type": "Point"
+            },
+            "type": "Feature"
+        },
+        {
+            "properties": {
+                "orgs": [
+                    {
+                        "name": "РАГС г. Авдеевки",
+                        "category": "Госучереждения Авдеевки"
+                    }
+                ],
+                "address": "улица Коммунальная, 4"
+            },
+            "geometry": {
+                "coordinates": [
+                    37.737021,
+                    48.134102
+                ],
+                "type": "Point"
+            },
+            "type": "Feature"
+        }
+    ]
+}
