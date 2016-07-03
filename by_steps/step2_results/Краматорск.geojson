@@ -1,0 +1,1712 @@
+{
+    "features": [
+        {
+            "properties": {
+                "address": "улица 19 Партсъезда, 56, СБУ, 56а",
+                "orgs": [
+                    {
+                        "name": "Бомбоубежище",
+                        "category": "Бомбоубежище"
+                    }
+                ]
+            },
+            "geometry": {
+                "coordinates": [
+                    37.590847,
+                    48.733155
+                ],
+                "type": "Point"
+            },
+            "type": "Feature"
+        },
+        {
+            "properties": {
+                "address": "улица Орджоникидзе, 2, ООО «Трест Донбассдомнаремонт», 2в",
+                "orgs": [
+                    {
+                        "name": "Бомбоубежище",
+                        "category": "Бомбоубежище"
+                    }
+                ]
+            },
+            "geometry": {
+                "coordinates": [
+                    37.587973,
+                    48.771267
+                ],
+                "type": "Point"
+            },
+            "type": "Feature"
+        },
+        {
+            "properties": {
+                "address": "улица Орджоникидзе, 1, ООО «Краматорский железобетон», 1а",
+                "orgs": [
+                    {
+                        "name": "Бомбоубежище",
+                        "category": "Бомбоубежище"
+                    }
+                ]
+            },
+            "geometry": {
+                "coordinates": [
+                    37.579322,
+                    48.751151
+                ],
+                "type": "Point"
+            },
+            "type": "Feature"
+        },
+        {
+            "properties": {
+                "address": "улица Шкадинова, 20",
+                "orgs": [
+                    {
+                        "name": "Краматорское Городское управление Юстиции",
+                        "category": "Службы и фонды"
+                    }
+                ]
+            },
+            "geometry": {
+                "coordinates": [
+                    37.593147,
+                    48.750082
+                ],
+                "type": "Point"
+            },
+            "type": "Feature"
+        },
+        {
+            "properties": {
+                "address": "улица Социалистическая, 45, Гостиница \"Краматорск\", офис 212",
+                "orgs": [
+                    {
+                        "name": "Помощь в оформлении загранпаспорта",
+                        "category": "Паспортные службы"
+                    }
+                ]
+            },
+            "geometry": {
+                "coordinates": [
+                    37.586877,
+                    48.735663
+                ],
+                "type": "Point"
+            },
+            "type": "Feature"
+        },
+        {
+            "properties": {
+                "address": "улица Днепропетровская, 16, Гор.бол. №2, вместимость: 25 чел.",
+                "orgs": [
+                    {
+                        "name": "Бомбоубежище",
+                        "category": "Бомбоубежище"
+                    }
+                ]
+            },
+            "geometry": {
+                "coordinates": [
+                    37.595555,
+                    48.762104
+                ],
+                "type": "Point"
+            },
+            "type": "Feature"
+        },
+        {
+            "properties": {
+                "address": "улица Депутатская, 17, бесхозное, защитное сооружение",
+                "orgs": [
+                    {
+                        "name": "Бомбоубежище",
+                        "category": "Бомбоубежище"
+                    }
+                ]
+            },
+            "geometry": {
+                "coordinates": [
+                    37.553343,
+                    48.702174
+                ],
+                "type": "Point"
+            },
+            "type": "Feature"
+        },
+        {
+            "properties": {
+                "address": "улица Красная Пушка, 10, вместимость: 120 чел.",
+                "orgs": [
+                    {
+                        "name": "Подвалы",
+                        "category": "Бомбоубежище"
+                    }
+                ]
+            },
+            "geometry": {
+                "coordinates": [
+                    37.535835,
+                    48.729328
+                ],
+                "type": "Point"
+            },
+            "type": "Feature"
+        },
+        {
+            "properties": {
+                "address": "улица Уральская, 9",
+                "orgs": [
+                    {
+                        "name": "Региональное отделение по защите прав потребителей",
+                        "category": "Службы и фонды"
+                    }
+                ]
+            },
+            "geometry": {
+                "coordinates": [
+                    37.601268,
+                    48.745733
+                ],
+                "type": "Point"
+            },
+            "type": "Feature"
+        },
+        {
+            "properties": {
+                "address": "улица Социалистическая, 40, СОШ № 5",
+                "orgs": [
+                    {
+                        "name": "Бомбоубежище",
+                        "category": "Бомбоубежище"
+                    }
+                ]
+            },
+            "geometry": {
+                "coordinates": [
+                    37.591153,
+                    48.741991
+                ],
+                "type": "Point"
+            },
+            "type": "Feature"
+        },
+        {
+            "properties": {
+                "address": "улица Парковая, 28",
+                "orgs": [
+                    {
+                        "name": "ООО «Жилищно-коммунальная компания МК 2010»",
+                        "category": "Жилищно-коммунальные предприятия"
+                    }
+                ]
+            },
+            "geometry": {
+                "coordinates": [
+                    37.598097,
+                    48.72499
+                ],
+                "type": "Point"
+            },
+            "type": "Feature"
+        },
+        {
+            "properties": {
+                "address": "улица Союзная, 16, жилой дом",
+                "orgs": [
+                    {
+                        "name": "Бомбоубежище",
+                        "category": "Бомбоубежище"
+                    }
+                ]
+            },
+            "geometry": {
+                "coordinates": [
+                    37.529807,
+                    48.728544
+                ],
+                "type": "Point"
+            },
+            "type": "Feature"
+        },
+        {
+            "properties": {
+                "address": "улица Румянцева, 4",
+                "orgs": [
+                    {
+                        "name": "КРАМАТОРСКИЙ ГОРОДСКОЙ ЦЕНТР ЗАНЯТОСТИ",
+                        "category": "Центры занятости"
+                    }
+                ]
+            },
+            "geometry": {
+                "coordinates": [
+                    37.591072,
+                    48.751567
+                ],
+                "type": "Point"
+            },
+            "type": "Feature"
+        },
+        {
+            "properties": {
+                "address": "проспект Мира, 1, вместимость: 135 чел.",
+                "orgs": [
+                    {
+                        "name": "Подвалы",
+                        "category": "Бомбоубежище"
+                    }
+                ]
+            },
+            "geometry": {
+                "coordinates": [
+                    37.581766,
+                    48.740434
+                ],
+                "type": "Point"
+            },
+            "type": "Feature"
+        },
+        {
+            "properties": {
+                "address": "улица Юбилейная, 70, ОАО \"Краматорский завод\" Альфа \"",
+                "orgs": [
+                    {
+                        "name": "Бомбоубежище",
+                        "category": "Бомбоубежище"
+                    }
+                ]
+            },
+            "geometry": {
+                "coordinates": [
+                    37.597504,
+                    48.729554
+                ],
+                "type": "Point"
+            },
+            "type": "Feature"
+        },
+        {
+            "properties": {
+                "address": "улица Лазо, 5",
+                "orgs": [
+                    {
+                        "name": "МРЭО",
+                        "category": "МРЭО"
+                    },
+                    {
+                        "name": "МРЭО г. Краматорска",
+                        "category": "МРЭО"
+                    }
+                ]
+            },
+            "geometry": {
+                "coordinates": [
+                    37.589832,
+                    48.751193
+                ],
+                "type": "Point"
+            },
+            "type": "Feature"
+        },
+        {
+            "properties": {
+                "address": "улица Горького, 2, ООО «Укрмашкомплект», 2д",
+                "orgs": [
+                    {
+                        "name": "Бомбоубежище",
+                        "category": "Бомбоубежище"
+                    }
+                ]
+            },
+            "geometry": {
+                "coordinates": [
+                    37.545438,
+                    48.722517
+                ],
+                "type": "Point"
+            },
+            "type": "Feature"
+        },
+        {
+            "properties": {
+                "address": "улица Шкадинова, 49, Городской досуговый центр \"Родина\", защитное сооружение",
+                "orgs": [
+                    {
+                        "name": "Бомбоубежище",
+                        "category": "Бомбоубежище"
+                    }
+                ]
+            },
+            "geometry": {
+                "coordinates": [
+                    37.587371,
+                    48.741646
+                ],
+                "type": "Point"
+            },
+            "type": "Feature"
+        },
+        {
+            "properties": {
+                "address": "улица Б.Хмельницкого, 1, вместимость: 130 чел., 145 чел.",
+                "orgs": [
+                    {
+                        "name": "Подвалы",
+                        "category": "Бомбоубежище"
+                    }
+                ]
+            },
+            "geometry": {
+                "coordinates": [
+                    37.579654,
+                    48.738081
+                ],
+                "type": "Point"
+            },
+            "type": "Feature"
+        },
+        {
+            "properties": {
+                "address": "улица Социалистическая, 33, Гор.бол. №3, вместимость: 50 чел., 120 чел.",
+                "orgs": [
+                    {
+                        "name": "Бомбоубежище",
+                        "category": "Бомбоубежище"
+                    }
+                ]
+            },
+            "geometry": {
+                "coordinates": [
+                    37.58994,
+                    48.739418
+                ],
+                "type": "Point"
+            },
+            "type": "Feature"
+        },
+        {
+            "properties": {
+                "address": "улица Луначарского, 8, жилой дом",
+                "orgs": [
+                    {
+                        "name": "Бомбоубежище",
+                        "category": "Бомбоубежище"
+                    }
+                ]
+            },
+            "geometry": {
+                "coordinates": [
+                    37.539033,
+                    48.724686
+                ],
+                "type": "Point"
+            },
+            "type": "Feature"
+        },
+        {
+            "properties": {
+                "address": "проспект Октябрьский, 6, жилой дом",
+                "orgs": [
+                    {
+                        "name": "Бомбоубежище",
+                        "category": "Бомбоубежище"
+                    }
+                ]
+            },
+            "geometry": {
+                "coordinates": [
+                    37.533795,
+                    48.728823
+                ],
+                "type": "Point"
+            },
+            "type": "Feature"
+        },
+        {
+            "properties": {
+                "address": "улица Горького, 2, ОАО «СКМЗ» ",
+                "orgs": [
+                    {
+                        "name": "Бомбоубежище",
+                        "category": "Бомбоубежище"
+                    }
+                ]
+            },
+            "geometry": {
+                "coordinates": [
+                    37.545438,
+                    48.722517
+                ],
+                "type": "Point"
+            },
+            "type": "Feature"
+        },
+        {
+            "properties": {
+                "address": "улица Краматорской правды, 150",
+                "orgs": [
+                    {
+                        "name": "Бомбоубежище",
+                        "category": "Бомбоубежище"
+                    }
+                ]
+            },
+            "geometry": {
+                "coordinates": [
+                    37.543174,
+                    48.785498
+                ],
+                "type": "Point"
+            },
+            "type": "Feature"
+        },
+        {
+            "properties": {
+                "address": "улица Катеринича, 2, вместимость: 170 чел.",
+                "orgs": [
+                    {
+                        "name": "Подвалы",
+                        "category": "Бомбоубежище"
+                    }
+                ]
+            },
+            "geometry": {
+                "coordinates": [
+                    37.582942,
+                    48.74205
+                ],
+                "type": "Point"
+            },
+            "type": "Feature"
+        },
+        {
+            "properties": {
+                "address": "улица М. Тореза, 53, жилой дом",
+                "orgs": [
+                    {
+                        "name": "Бомбоубежище",
+                        "category": "Бомбоубежище"
+                    }
+                ]
+            },
+            "geometry": {
+                "coordinates": [
+                    37.526816,
+                    48.734575
+                ],
+                "type": "Point"
+            },
+            "type": "Feature"
+        },
+        {
+            "properties": {
+                "address": "улица Социалистическая, 15, Школа-Интернат №10",
+                "orgs": [
+                    {
+                        "name": "Бомбоубежище",
+                        "category": "Бомбоубежище"
+                    }
+                ]
+            },
+            "geometry": {
+                "coordinates": [
+                    37.598016,
+                    48.74887
+                ],
+                "type": "Point"
+            },
+            "type": "Feature"
+        },
+        {
+            "properties": {
+                "address": "улица Пролетарская, 11, возле жилого дома 11 защитное сооружение",
+                "orgs": [
+                    {
+                        "name": "Бомбоубежище",
+                        "category": "Бомбоубежище"
+                    }
+                ]
+            },
+            "geometry": {
+                "coordinates": [
+                    37.529798,
+                    48.730879
+                ],
+                "type": "Point"
+            },
+            "type": "Feature"
+        },
+        {
+            "properties": {
+                "address": "улица Орджоникидзе, 6, ЗАО \"Краматорский завод тяжелого станкостроения\", защитное сооружение",
+                "orgs": [
+                    {
+                        "name": "Бомбоубежище",
+                        "category": "Бомбоубежище"
+                    }
+                ]
+            },
+            "geometry": {
+                "coordinates": [
+                    37.587973,
+                    48.771267
+                ],
+                "type": "Point"
+            },
+            "type": "Feature"
+        },
+        {
+            "properties": {
+                "address": "Орджоникидзе, 5, ЗАО \"Новокраматорский машиностроительный завод\", защитное сооружение",
+                "orgs": [
+                    {
+                        "name": "Бомбоубежище",
+                        "category": "Бомбоубежище"
+                    }
+                ]
+            },
+            "geometry": {
+                "coordinates": [
+                    37.579322,
+                    48.751151
+                ],
+                "type": "Point"
+            },
+            "type": "Feature"
+        },
+        {
+            "properties": {
+                "address": "улица М. Тореза, 45, жилой дом",
+                "orgs": [
+                    {
+                        "name": "Бомбоубежище",
+                        "category": "Бомбоубежище"
+                    }
+                ]
+            },
+            "geometry": {
+                "coordinates": [
+                    37.529241,
+                    48.734718
+                ],
+                "type": "Point"
+            },
+            "type": "Feature"
+        },
+        {
+            "properties": {
+                "address": "улица Совхозная, 15, ОАО \"Краматорский завод металлоконструкций\"",
+                "orgs": [
+                    {
+                        "name": "Бомбоубежище",
+                        "category": "Бомбоубежище"
+                    }
+                ]
+            },
+            "geometry": {
+                "coordinates": [
+                    37.561733,
+                    48.774491
+                ],
+                "type": "Point"
+            },
+            "type": "Feature"
+        },
+        {
+            "properties": {
+                "address": "улица Дворцовая, 67-а",
+                "orgs": [
+                    {
+                        "name": "Краматорский дом ребенка «Антошка»",
+                        "category": "Детские дома и приюты"
+                    }
+                ]
+            },
+            "geometry": {
+                "coordinates": [
+                    37.613575,
+                    48.729857
+                ],
+                "type": "Point"
+            },
+            "type": "Feature"
+        },
+        {
+            "properties": {
+                "address": "улица Юбилейная, 36",
+                "orgs": [
+                    {
+                        "name": "КО «ЖБК»",
+                        "category": "Жилищно-коммунальные предприятия"
+                    }
+                ]
+            },
+            "geometry": {
+                "coordinates": [
+                    37.598025,
+                    48.730885
+                ],
+                "type": "Point"
+            },
+            "type": "Feature"
+        },
+        {
+            "properties": {
+                "address": "улица М. Тореза, 18, ООО \"Краматорский металлопрокатный завод\"",
+                "orgs": [
+                    {
+                        "name": "Бомбоубежище",
+                        "category": "Бомбоубежище"
+                    }
+                ]
+            },
+            "geometry": {
+                "coordinates": [
+                    37.535754,
+                    48.734979
+                ],
+                "type": "Point"
+            },
+            "type": "Feature"
+        },
+        {
+            "properties": {
+                "address": "улица 19 - Партсъезда, 11",
+                "orgs": [
+                    {
+                        "name": "КРАМАТОРСКИЙ ГОРОДСКОЙ ОТДЕЛ ГОСУДАРСТВЕННОЙ МИГРАЦИОННОЙ СЛУЖБЫ УКРАИНЫ В ДОНЕЦКОЙ ОБЛАСТИ",
+                        "category": "Паспортные службы"
+                    }
+                ]
+            },
+            "geometry": {
+                "coordinates": [
+                    37.602696,
+                    48.743999
+                ],
+                "type": "Point"
+            },
+            "type": "Feature"
+        },
+        {
+            "properties": {
+                "address": "улица Орджоникидзе, 17, Городская больница №1",
+                "orgs": [
+                    {
+                        "name": "Бомбоубежище",
+                        "category": "Бомбоубежище"
+                    }
+                ]
+            },
+            "geometry": {
+                "coordinates": [
+                    37.574309,
+                    48.742983
+                ],
+                "type": "Point"
+            },
+            "type": "Feature"
+        },
+        {
+            "properties": {
+                "address": "улица 19 Партсьезда, 11",
+                "orgs": [
+                    {
+                        "name": "Отдел гражданства, паспортной и иммиграционной службы",
+                        "category": "Паспортные службы"
+                    }
+                ]
+            },
+            "geometry": {
+                "coordinates": [
+                    37.602696,
+                    48.743999
+                ],
+                "type": "Point"
+            },
+            "type": "Feature"
+        },
+        {
+            "properties": {
+                "address": "улица Сакко-Ванцети, 1, вместимость: 125 чел.",
+                "orgs": [
+                    {
+                        "name": "Подвалы",
+                        "category": "Бомбоубежище"
+                    }
+                ]
+            },
+            "geometry": {
+                "coordinates": [
+                    37.592096,
+                    48.747747
+                ],
+                "type": "Point"
+            },
+            "type": "Feature"
+        },
+        {
+            "properties": {
+                "address": "улица К. Маркса, 4, ООО «ТД Золотой урожай», 4а",
+                "orgs": [
+                    {
+                        "name": "Бомбоубежище",
+                        "category": "Бомбоубежище"
+                    }
+                ]
+            },
+            "geometry": {
+                "coordinates": [
+                    37.53826,
+                    48.719741
+                ],
+                "type": "Point"
+            },
+            "type": "Feature"
+        },
+        {
+            "properties": {
+                "address": "улица Союзная, 42, жилой дом",
+                "orgs": [
+                    {
+                        "name": "Бомбоубежище",
+                        "category": "Бомбоубежище"
+                    }
+                ]
+            },
+            "geometry": {
+                "coordinates": [
+                    37.526699,
+                    48.734005
+                ],
+                "type": "Point"
+            },
+            "type": "Feature"
+        },
+        {
+            "properties": {
+                "address": "бульвар Машиностроителей, 28",
+                "orgs": [
+                    {
+                        "name": "Автовокзал",
+                        "category": "Автовокзалы"
+                    }
+                ]
+            },
+            "geometry": {
+                "coordinates": [
+                    37.576807,
+                    48.73653
+                ],
+                "type": "Point"
+            },
+            "type": "Feature"
+        },
+        {
+            "properties": {
+                "address": "улица Кима, 103, КП КТТУ",
+                "orgs": [
+                    {
+                        "name": "Бомбоубежище",
+                        "category": "Бомбоубежище"
+                    }
+                ]
+            },
+            "geometry": {
+                "coordinates": [
+                    37.580202,
+                    48.720044
+                ],
+                "type": "Point"
+            },
+            "type": "Feature"
+        },
+        {
+            "properties": {
+                "address": "улица Маяковского, 3, бесхозное, защитное сооружение",
+                "orgs": [
+                    {
+                        "name": "Бомбоубежище",
+                        "category": "Бомбоубежище"
+                    }
+                ]
+            },
+            "geometry": {
+                "coordinates": [
+                    37.583805,
+                    48.752262
+                ],
+                "type": "Point"
+            },
+            "type": "Feature"
+        },
+        {
+            "properties": {
+                "address": "улица Р.Люксембург, 58",
+                "orgs": [
+                    {
+                        "name": "Военный комиссариат",
+                        "category": "Военные комиссариаты"
+                    }
+                ]
+            },
+            "geometry": {
+                "coordinates": [
+                    37.538736,
+                    48.726939
+                ],
+                "type": "Point"
+            },
+            "type": "Feature"
+        },
+        {
+            "properties": {
+                "address": "улица К. Цеткин, 1, Городская психиатрическая больница, 1а",
+                "orgs": [
+                    {
+                        "name": "Бомбоубежище",
+                        "category": "Бомбоубежище"
+                    }
+                ]
+            },
+            "geometry": {
+                "coordinates": [
+                    37.523123,
+                    48.705587
+                ],
+                "type": "Point"
+            },
+            "type": "Feature"
+        },
+        {
+            "properties": {
+                "address": "улица 50р. ВЛКСМ, 1, ОАО «Краматорский комбинат панельного домостроения»",
+                "orgs": [
+                    {
+                        "name": "Бомбоубежище",
+                        "category": "Бомбоубежище"
+                    }
+                ]
+            },
+            "geometry": {
+                "coordinates": [
+                    37.584344,
+                    48.738966
+                ],
+                "type": "Point"
+            },
+            "type": "Feature"
+        },
+        {
+            "properties": {
+                "address": "улица Румянцева, 12, вместимость: 100 чел.",
+                "orgs": [
+                    {
+                        "name": "Подвалы",
+                        "category": "Бомбоубежище"
+                    }
+                ]
+            },
+            "geometry": {
+                "coordinates": [
+                    37.593866,
+                    48.751953
+                ],
+                "type": "Point"
+            },
+            "type": "Feature"
+        },
+        {
+            "properties": {
+                "address": "проспект Октябрьский, 2, жилой дом",
+                "orgs": [
+                    {
+                        "name": "Бомбоубежище",
+                        "category": "Бомбоубежище"
+                    }
+                ]
+            },
+            "geometry": {
+                "coordinates": [
+                    37.534343,
+                    48.728199
+                ],
+                "type": "Point"
+            },
+            "type": "Feature"
+        },
+        {
+            "properties": {
+                "address": "улица Героев Союза, 4, бесхозное, защитное сооружение",
+                "orgs": [
+                    {
+                        "name": "Бомбоубежище",
+                        "category": "Бомбоубежище"
+                    }
+                ]
+            },
+            "geometry": {
+                "coordinates": [
+                    37.520285,
+                    48.708042
+                ],
+                "type": "Point"
+            },
+            "type": "Feature"
+        },
+        {
+            "properties": {
+                "address": "улица Почтовая, 5",
+                "orgs": [
+                    {
+                        "name": "УПРАВЛЕНИЕ ПЕНСИОННОГО ФОНДА УКРАИНЫ В Г.КРАМАТОРСКЕ",
+                        "category": "Службы и фонды"
+                    }
+                ]
+            },
+            "geometry": {
+                "coordinates": [
+                    37.543955,
+                    48.722785
+                ],
+                "type": "Point"
+            },
+            "type": "Feature"
+        },
+        {
+            "properties": {
+                "address": "улица Аллейная, 5",
+                "orgs": [
+                    {
+                        "name": "ЧП «Индустриал»",
+                        "category": "Жилищно-коммунальные предприятия"
+                    }
+                ]
+            },
+            "geometry": {
+                "coordinates": [
+                    37.529555,
+                    48.73385
+                ],
+                "type": "Point"
+            },
+            "type": "Feature"
+        },
+        {
+            "properties": {
+                "address": "улица Марата, 2, вместимость: 140 чел.",
+                "orgs": [
+                    {
+                        "name": "Подвалы",
+                        "category": "Бомбоубежище"
+                    }
+                ]
+            },
+            "geometry": {
+                "coordinates": [
+                    37.585206,
+                    48.744135
+                ],
+                "type": "Point"
+            },
+            "type": "Feature"
+        },
+        {
+            "properties": {
+                "address": "улица Южная, 6, КПП «Краматорский водоканал»",
+                "orgs": [
+                    {
+                        "name": "Бомбоубежище",
+                        "category": "Бомбоубежище"
+                    }
+                ]
+            },
+            "geometry": {
+                "coordinates": [
+                    37.572684,
+                    48.729726
+                ],
+                "type": "Point"
+            },
+            "type": "Feature"
+        },
+        {
+            "properties": {
+                "address": "улица Орджоникидзе, 35, жилой дом",
+                "orgs": [
+                    {
+                        "name": "Бомбоубежище",
+                        "category": "Бомбоубежище"
+                    }
+                ]
+            },
+            "geometry": {
+                "coordinates": [
+                    37.561877,
+                    48.720853
+                ],
+                "type": "Point"
+            },
+            "type": "Feature"
+        },
+        {
+            "properties": {
+                "address": "улица Богдана Хмельницкого, 8, 2 этаж",
+                "orgs": [
+                    {
+                        "name": "Государственный Регистратор",
+                        "category": "Госучереждения Краматорска"
+                    }
+                ]
+            },
+            "geometry": {
+                "coordinates": [
+                    37.579349,
+                    48.736233
+                ],
+                "type": "Point"
+            },
+            "type": "Feature"
+        },
+        {
+            "properties": {
+                "address": "улица Кирова, 699, Цех УКВР-2 Донецкого филиала концерна радиовещания, радиосвязи и телевидения",
+                "orgs": [
+                    {
+                        "name": "Бомбоубежище",
+                        "category": "Бомбоубежище"
+                    }
+                ]
+            },
+            "geometry": {
+                "coordinates": [
+                    37.556208,
+                    48.781443
+                ],
+                "type": "Point"
+            },
+            "type": "Feature"
+        },
+        {
+            "properties": {
+                "address": "улица Школьная, 12, возле жилого дома 12, защитное сооружение",
+                "orgs": [
+                    {
+                        "name": "Бомбоубежище",
+                        "category": "Бомбоубежище"
+                    }
+                ]
+            },
+            "geometry": {
+                "coordinates": [
+                    37.534514,
+                    48.725221
+                ],
+                "type": "Point"
+            },
+            "type": "Feature"
+        },
+        {
+            "properties": {
+                "address": "улица Румянцева, 4-а",
+                "orgs": [
+                    {
+                        "name": "Прокуратура  г. Краматорска",
+                        "category": "Прокуратура"
+                    }
+                ]
+            },
+            "geometry": {
+                "coordinates": [
+                    37.591072,
+                    48.751567
+                ],
+                "type": "Point"
+            },
+            "type": "Feature"
+        },
+        {
+            "properties": {
+                "address": "улица Лагоды, 1, вместимость: 110 чел.",
+                "orgs": [
+                    {
+                        "name": "Подвалы",
+                        "category": "Бомбоубежище"
+                    }
+                ]
+            },
+            "geometry": {
+                "coordinates": [
+                    37.591692,
+                    48.746642
+                ],
+                "type": "Point"
+            },
+            "type": "Feature"
+        },
+        {
+            "properties": {
+                "address": "улица Маяковского, 3, ООО «ТД Золотой урожай»",
+                "orgs": [
+                    {
+                        "name": "Бомбоубежище",
+                        "category": "Бомбоубежище"
+                    }
+                ]
+            },
+            "geometry": {
+                "coordinates": [
+                    37.583805,
+                    48.752262
+                ],
+                "type": "Point"
+            },
+            "type": "Feature"
+        },
+        {
+            "properties": {
+                "address": "улица 19 Партсъезда, 11",
+                "orgs": [
+                    {
+                        "name": "Паспортный стол",
+                        "category": "Паспортные службы"
+                    }
+                ]
+            },
+            "geometry": {
+                "coordinates": [
+                    37.602696,
+                    48.743999
+                ],
+                "type": "Point"
+            },
+            "type": "Feature"
+        },
+        {
+            "properties": {
+                "address": "бульвар Машиностроителей, 21, вместимость: 130 чел., 130 чел.",
+                "orgs": [
+                    {
+                        "name": "Подвалы",
+                        "category": "Бомбоубежище"
+                    }
+                ]
+            },
+            "geometry": {
+                "coordinates": [
+                    37.580337,
+                    48.738901
+                ],
+                "type": "Point"
+            },
+            "type": "Feature"
+        },
+        {
+            "properties": {
+                "address": "улица Ленина, 2, вместимость: 170 чел., 165 чел., 245 чел.",
+                "orgs": [
+                    {
+                        "name": "Подвалы",
+                        "category": "Бомбоубежище"
+                    }
+                ]
+            },
+            "geometry": {
+                "coordinates": [
+                    37.584344,
+                    48.74603
+                ],
+                "type": "Point"
+            },
+            "type": "Feature"
+        },
+        {
+            "properties": {
+                "address": "улица Южная, 1, защитное сооружение",
+                "orgs": [
+                    {
+                        "name": "Бомбоубежище",
+                        "category": "Бомбоубежище"
+                    }
+                ]
+            },
+            "geometry": {
+                "coordinates": [
+                    37.572684,
+                    48.729726
+                ],
+                "type": "Point"
+            },
+            "type": "Feature"
+        },
+        {
+            "properties": {
+                "address": "улица Центральная, 1, жилой дом",
+                "orgs": [
+                    {
+                        "name": "Бомбоубежище",
+                        "category": "Бомбоубежище"
+                    }
+                ]
+            },
+            "geometry": {
+                "coordinates": [
+                    37.561724,
+                    48.720294
+                ],
+                "type": "Point"
+            },
+            "type": "Feature"
+        },
+        {
+            "properties": {
+                "address": "улица Социалистическая, 31, Городская больница №3",
+                "orgs": [
+                    {
+                        "name": "Бомбоубежище",
+                        "category": "Бомбоубежище"
+                    }
+                ]
+            },
+            "geometry": {
+                "coordinates": [
+                    37.58994,
+                    48.739418
+                ],
+                "type": "Point"
+            },
+            "type": "Feature"
+        },
+        {
+            "properties": {
+                "address": "улица Луначарского, 10",
+                "orgs": [
+                    {
+                        "name": "Краматорский городской военный комиссариат",
+                        "category": "Военные комиссариаты"
+                    }
+                ]
+            },
+            "geometry": {
+                "coordinates": [
+                    37.539033,
+                    48.724686
+                ],
+                "type": "Point"
+            },
+            "type": "Feature"
+        },
+        {
+            "properties": {
+                "address": "улица Парковая, 10",
+                "orgs": [
+                    {
+                        "name": "ЗАГС",
+                        "category": "ЗАГС"
+                    },
+                    {
+                        "name": "ЗАГС",
+                        "category": "ЗАГС"
+                    }
+                ]
+            },
+            "geometry": {
+                "coordinates": [
+                    37.585835,
+                    48.730546
+                ],
+                "type": "Point"
+            },
+            "type": "Feature"
+        },
+        {
+            "properties": {
+                "address": "улица Совхозная, 6, ЗАО \"Энергомашспецсталь\", защитное сооружение",
+                "orgs": [
+                    {
+                        "name": "Бомбоубежище",
+                        "category": "Бомбоубежище"
+                    }
+                ]
+            },
+            "geometry": {
+                "coordinates": [
+                    37.560907,
+                    48.774544
+                ],
+                "type": "Point"
+            },
+            "type": "Feature"
+        },
+        {
+            "properties": {
+                "address": "улица Шкадинова, 21, вместимость: 111 чел.",
+                "orgs": [
+                    {
+                        "name": "Подвалы",
+                        "category": "Бомбоубежище"
+                    }
+                ]
+            },
+            "geometry": {
+                "coordinates": [
+                    37.593884,
+                    48.749874
+                ],
+                "type": "Point"
+            },
+            "type": "Feature"
+        },
+        {
+            "properties": {
+                "address": "бульвар Машиностроителей, 22",
+                "orgs": [
+                    {
+                        "name": "ГОСУДАРСТВЕННАЯ НАЛОГОВАЯ ИНСПЕКЦИЯ В Г. КРАМАТОРСКЕ ГЛАВНОГО УПРАВЛЕНИЯ МИНДОХОДОВ В ДОНЕЦКОЙ ОБЛАСТИ",
+                        "category": "Налоговые инспекции"
+                    }
+                ]
+            },
+            "geometry": {
+                "coordinates": [
+                    37.577966,
+                    48.737861
+                ],
+                "type": "Point"
+            },
+            "type": "Feature"
+        },
+        {
+            "properties": {
+                "address": "улица 1 Мая, 4",
+                "orgs": [
+                    {
+                        "name": "ЧП «ЛАДИС»",
+                        "category": "Жилищно-коммунальные предприятия"
+                    }
+                ]
+            },
+            "geometry": {
+                "coordinates": [
+                    37.537479,
+                    48.726737
+                ],
+                "type": "Point"
+            },
+            "type": "Feature"
+        },
+        {
+            "properties": {
+                "address": "улица 19 - Партсъезда, 56",
+                "orgs": [
+                    {
+                        "name": "Служба по делам детей Краматорского городского совета",
+                        "category": "Службы и фонды"
+                    }
+                ]
+            },
+            "geometry": {
+                "coordinates": [
+                    37.590847,
+                    48.733155
+                ],
+                "type": "Point"
+            },
+            "type": "Feature"
+        },
+        {
+            "properties": {
+                "address": "улица Привокзальная, 2, Филиал АО «Евроцемент-Украина» Краматорський цементний завод - «Пушка\"",
+                "orgs": [
+                    {
+                        "name": "Бомбоубежище",
+                        "category": "Бомбоубежище"
+                    }
+                ]
+            },
+            "geometry": {
+                "coordinates": [
+                    37.542806,
+                    48.722065
+                ],
+                "type": "Point"
+            },
+            "type": "Feature"
+        },
+        {
+            "properties": {
+                "address": "улица Объездная, 22, вместимость: 86 чел., 92 чел.",
+                "orgs": [
+                    {
+                        "name": "Подвалы",
+                        "category": "Бомбоубежище"
+                    }
+                ]
+            },
+            "geometry": {
+                "coordinates": [
+                    37.603145,
+                    48.74148
+                ],
+                "type": "Point"
+            },
+            "type": "Feature"
+        },
+        {
+            "properties": {
+                "address": "улица 50р. ВЛКСМ, 2, ЧМП \"ЛОЦМЕН\"",
+                "orgs": [
+                    {
+                        "name": "Бомбоубежище",
+                        "category": "Бомбоубежище"
+                    }
+                ]
+            },
+            "geometry": {
+                "coordinates": [
+                    37.584344,
+                    48.738966
+                ],
+                "type": "Point"
+            },
+            "type": "Feature"
+        },
+        {
+            "properties": {
+                "address": "улица Дворцовая, 14, Цех коммуникационных услуг №4",
+                "orgs": [
+                    {
+                        "name": "Бомбоубежище",
+                        "category": "Бомбоубежище"
+                    }
+                ]
+            },
+            "geometry": {
+                "coordinates": [
+                    37.589922,
+                    48.73596
+                ],
+                "type": "Point"
+            },
+            "type": "Feature"
+        },
+        {
+            "properties": {
+                "address": "улица Парковая, 33",
+                "orgs": [
+                    {
+                        "name": "ЧП «АЛАТЫР»",
+                        "category": "Жилищно-коммунальные предприятия"
+                    }
+                ]
+            },
+            "geometry": {
+                "coordinates": [
+                    37.586841,
+                    48.732692
+                ],
+                "type": "Point"
+            },
+            "type": "Feature"
+        },
+        {
+            "properties": {
+                "address": "улица Днепропетровская, 2-а",
+                "orgs": [
+                    {
+                        "name": "ООО «КРАМБУДРЕСУРС»",
+                        "category": "Жилищно-коммунальные предприятия"
+                    }
+                ]
+            },
+            "geometry": {
+                "coordinates": [
+                    37.588,
+                    48.76325
+                ],
+                "type": "Point"
+            },
+            "type": "Feature"
+        },
+        {
+            "properties": {
+                "address": "улица Школьная, 117, ОАО «Краматорский завод «Кондиционер»",
+                "orgs": [
+                    {
+                        "name": "Бомбоубежище",
+                        "category": "Бомбоубежище"
+                    }
+                ]
+            },
+            "geometry": {
+                "coordinates": [
+                    37.513637,
+                    48.72386
+                ],
+                "type": "Point"
+            },
+            "type": "Feature"
+        },
+        {
+            "properties": {
+                "address": "улица Лазо, 12",
+                "orgs": [
+                    {
+                        "name": "Краматорская межрайонная природоохранная прокуратура",
+                        "category": "Прокуратура"
+                    }
+                ]
+            },
+            "geometry": {
+                "coordinates": [
+                    37.594171,
+                    48.749191
+                ],
+                "type": "Point"
+            },
+            "type": "Feature"
+        },
+        {
+            "properties": {
+                "address": "улица Маяковского, 21",
+                "orgs": [
+                    {
+                        "name": "Прокуратура",
+                        "category": "Прокуратура"
+                    },
+                    {
+                        "name": "Городской суд г. Краматорска",
+                        "category": "Суды"
+                    },
+                    {
+                        "name": "Краматорский городской суд",
+                        "category": "Суды"
+                    }
+                ]
+            },
+            "geometry": {
+                "coordinates": [
+                    37.591018,
+                    48.749482
+                ],
+                "type": "Point"
+            },
+            "type": "Feature"
+        },
+        {
+            "properties": {
+                "address": "улица Ульяновская, 199, Краматорска участок РПУ КП «Компания «Вода Донбасса »»",
+                "orgs": [
+                    {
+                        "name": "Бомбоубежище",
+                        "category": "Бомбоубежище"
+                    }
+                ]
+            },
+            "geometry": {
+                "coordinates": [
+                    37.621336,
+                    48.754311
+                ],
+                "type": "Point"
+            },
+            "type": "Feature"
+        },
+        {
+            "properties": {
+                "address": "улица Щербакова, 2, ООО «Краматорский Холод»",
+                "orgs": [
+                    {
+                        "name": "Бомбоубежище",
+                        "category": "Бомбоубежище"
+                    }
+                ]
+            },
+            "geometry": {
+                "coordinates": [
+                    37.58862,
+                    48.756384
+                ],
+                "type": "Point"
+            },
+            "type": "Feature"
+        },
+        {
+            "properties": {
+                "address": "улица Орджоникидзе, 5, ООО \"Краматорсктеплоэнерго\"",
+                "orgs": [
+                    {
+                        "name": "Бомбоубежище",
+                        "category": "Бомбоубежище"
+                    }
+                ]
+            },
+            "geometry": {
+                "coordinates": [
+                    37.579322,
+                    48.751151
+                ],
+                "type": "Point"
+            },
+            "type": "Feature"
+        },
+        {
+            "properties": {
+                "address": "улица М. Тореза, 18, ООО \"Краматорськийферосплавний завод\"",
+                "orgs": [
+                    {
+                        "name": "Бомбоубежище",
+                        "category": "Бомбоубежище"
+                    }
+                ]
+            },
+            "geometry": {
+                "coordinates": [
+                    37.535754,
+                    48.734979
+                ],
+                "type": "Point"
+            },
+            "type": "Feature"
+        },
+        {
+            "properties": {
+                "address": "улица Днепропетровская, 7, Цех коммуникационных услуг №4",
+                "orgs": [
+                    {
+                        "name": "Бомбоубежище",
+                        "category": "Бомбоубежище"
+                    }
+                ]
+            },
+            "geometry": {
+                "coordinates": [
+                    37.590776,
+                    48.763517
+                ],
+                "type": "Point"
+            },
+            "type": "Feature"
+        },
+        {
+            "properties": {
+                "address": "улица Лазо, 21, вместимость: 150 чел.",
+                "orgs": [
+                    {
+                        "name": "Подвалы",
+                        "category": "Бомбоубежище"
+                    }
+                ]
+            },
+            "geometry": {
+                "coordinates": [
+                    37.59436,
+                    48.749559
+                ],
+                "type": "Point"
+            },
+            "type": "Feature"
+        }
+    ],
+    "type": "FeatureCollection"
+}

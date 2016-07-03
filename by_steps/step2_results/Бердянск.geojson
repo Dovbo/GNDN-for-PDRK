@@ -1,0 +1,713 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+        {
+            "properties": {
+                "orgs": [
+                    {
+                        "name": "Бердянский райсовет",
+                        "category": "Администрации, городская и районная"
+                    },
+                    {
+                        "name": "Бердянский районный отдел регистрации актов гражданского состояния",
+                        "category": "Государственные службы"
+                    },
+                    {
+                        "name": "Районный отдел образования",
+                        "category": "Отдел образования"
+                    }
+                ],
+                "address": "Победы, 3"
+            },
+            "geometry": {
+                "coordinates": [
+                    36.790907,
+                    46.755068
+                ],
+                "type": "Point"
+            },
+            "type": "Feature"
+        },
+        {
+            "properties": {
+                "orgs": [
+                    {
+                        "name": "Районное управление Пенсионного фонда Украины",
+                        "category": "Фонды"
+                    }
+                ],
+                "address": "Красная, 36а"
+            },
+            "geometry": {
+                "coordinates": [
+                    36.795767,
+                    46.752821
+                ],
+                "type": "Point"
+            },
+            "type": "Feature"
+        },
+        {
+            "properties": {
+                "orgs": [
+                    {
+                        "name": "Государственная таможенная служба Украины",
+                        "category": "Государственные службы"
+                    }
+                ],
+                "address": "Шевченко, 31"
+            },
+            "geometry": {
+                "coordinates": [
+                    36.796638,
+                    46.757334
+                ],
+                "type": "Point"
+            },
+            "type": "Feature"
+        },
+        {
+            "properties": {
+                "orgs": [
+                    {
+                        "name": "Благотворительный фонд \"Возрождение Бердянска\"",
+                        "category": "Фонды"
+                    }
+                ],
+                "address": "Горбенко/К. Маркса, 26/51"
+            },
+            "geometry": {
+                "coordinates": [
+                    36.793368,
+                    46.756791
+                ],
+                "type": "Point"
+            },
+            "type": "Feature"
+        },
+        {
+            "properties": {
+                "orgs": [
+                    {
+                        "name": "ОГИ РФЛ Бердянского РО УМВД Украины",
+                        "category": "Милиция и службы охраны"
+                    }
+                ],
+                "address": "Труда, 12"
+            },
+            "geometry": {
+                "coordinates": [
+                    36.787152,
+                    46.759983
+                ],
+                "type": "Point"
+            },
+            "type": "Feature"
+        },
+        {
+            "properties": {
+                "orgs": [
+                    {
+                        "name": "Автовокзал",
+                        "category": "Государственные службы"
+                    },
+                    {
+                        "name": "Автовокзал",
+                        "category": "Транспорт"
+                    }
+                ],
+                "address": "улица 12  декабря, 4"
+            },
+            "geometry": {
+                "coordinates": [
+                    36.778402,
+                    46.760094
+                ],
+                "type": "Point"
+            },
+            "type": "Feature"
+        },
+        {
+            "properties": {
+                "orgs": [
+                    {
+                        "name": "Горрайсуд",
+                        "category": "Государственные службы"
+                    }
+                ],
+                "address": "улица Коммунаров, 64"
+            },
+            "geometry": {
+                "coordinates": [
+                    36.791149,
+                    46.760112
+                ],
+                "type": "Point"
+            },
+            "type": "Feature"
+        },
+        {
+            "properties": {
+                "orgs": [
+                    {
+                        "name": "Фонд социальной защиты ветеранов",
+                        "category": "Фонды"
+                    }
+                ],
+                "address": "Энгельса, 42"
+            },
+            "geometry": {
+                "coordinates": [
+                    36.800644,
+                    46.753383
+                ],
+                "type": "Point"
+            },
+            "type": "Feature"
+        },
+        {
+            "properties": {
+                "orgs": [
+                    {
+                        "name": "районный РАГС",
+                        "category": "Государственные службы"
+                    }
+                ],
+                "address": "проспект победы, 3"
+            },
+            "geometry": {
+                "coordinates": [
+                    36.790907,
+                    46.755068
+                ],
+                "type": "Point"
+            },
+            "type": "Feature"
+        },
+        {
+            "properties": {
+                "orgs": [
+                    {
+                        "name": "ЖД вокзал",
+                        "category": "Государственные службы"
+                    },
+                    {
+                        "name": "ЖД вокзал",
+                        "category": "Транспорт"
+                    }
+                ],
+                "address": "проспект Пролетарский, 127"
+            },
+            "geometry": {
+                "coordinates": [
+                    36.803115,
+                    46.749234
+                ],
+                "type": "Point"
+            },
+            "type": "Feature"
+        },
+        {
+            "properties": {
+                "orgs": [
+                    {
+                        "name": "Отделение пожнадзора Бердянского района",
+                        "category": "Пожарная охрана"
+                    }
+                ],
+                "address": "Матвеева, 4а"
+            },
+            "geometry": {
+                "coordinates": [
+                    36.740098,
+                    46.795777
+                ],
+                "type": "Point"
+            },
+            "type": "Feature"
+        },
+        {
+            "properties": {
+                "orgs": [
+                    {
+                        "name": "Пожарная часть",
+                        "category": "Пожарная охрана"
+                    }
+                ],
+                "address": "Коцюбинского, 98"
+            },
+            "geometry": {
+                "coordinates": [
+                    36.813095,
+                    46.746875
+                ],
+                "type": "Point"
+            },
+            "type": "Feature"
+        },
+        {
+            "properties": {
+                "orgs": [
+                    {
+                        "name": "Фонд социального страхования от несчастных случаев",
+                        "category": "Фонды"
+                    }
+                ],
+                "address": "Р. Люксембург, 57"
+            },
+            "geometry": {
+                "coordinates": [
+                    36.801552,
+                    46.750685
+                ],
+                "type": "Point"
+            },
+            "type": "Feature"
+        },
+        {
+            "properties": {
+                "orgs": [
+                    {
+                        "name": "Управление Пенсионного фонда Украины в г. Бердянске",
+                        "category": "Фонды"
+                    }
+                ],
+                "address": "улица Коммунаров, 23-л"
+            },
+            "geometry": {
+                "coordinates": [
+                    36.783648,
+                    46.762094
+                ],
+                "type": "Point"
+            },
+            "type": "Feature"
+        },
+        {
+            "properties": {
+                "orgs": [
+                    {
+                        "name": "Бердянская государственная санитарно-эпидемиологическая станция",
+                        "category": "Государственные службы"
+                    }
+                ],
+                "address": "Свободы, 113"
+            },
+            "geometry": {
+                "coordinates": [
+                    36.797015,
+                    46.758822
+                ],
+                "type": "Point"
+            },
+            "type": "Feature"
+        },
+        {
+            "properties": {
+                "orgs": [
+                    {
+                        "name": "Горотдел управления службы безопасности Украины",
+                        "category": "Милиция и службы охраны"
+                    }
+                ],
+                "address": "Красная, 43"
+            },
+            "geometry": {
+                "coordinates": [
+                    36.796746,
+                    46.753469
+                ],
+                "type": "Point"
+            },
+            "type": "Feature"
+        },
+        {
+            "properties": {
+                "orgs": [
+                    {
+                        "name": "Бердянский государственный городской архив",
+                        "category": "Архивы"
+                    }
+                ],
+                "address": "Приазовская, 124"
+            },
+            "geometry": {
+                "coordinates": [
+                    36.764891,
+                    46.778364
+                ],
+                "type": "Point"
+            },
+            "type": "Feature"
+        },
+        {
+            "properties": {
+                "orgs": [
+                    {
+                        "name": "Городской отдел образования",
+                        "category": "Отдел образования"
+                    }
+                ],
+                "address": "Ульяновых, 33"
+            },
+            "geometry": {
+                "coordinates": [
+                    36.78416,
+                    46.755507
+                ],
+                "type": "Point"
+            },
+            "type": "Feature"
+        },
+        {
+            "properties": {
+                "orgs": [
+                    {
+                        "name": "Городская прокуратура",
+                        "category": "Прокуратуры"
+                    }
+                ],
+                "address": "проспект Победы, 4"
+            },
+            "geometry": {
+                "coordinates": [
+                    36.791239,
+                    46.754679
+                ],
+                "type": "Point"
+            },
+            "type": "Feature"
+        },
+        {
+            "properties": {
+                "orgs": [
+                    {
+                        "name": "Фонд социального страхования по временной утрате трудоспособности",
+                        "category": "Фонды"
+                    }
+                ],
+                "address": "Пионерская, 51"
+            },
+            "geometry": {
+                "coordinates": [
+                    36.784232,
+                    46.773328
+                ],
+                "type": "Point"
+            },
+            "type": "Feature"
+        },
+        {
+            "properties": {
+                "orgs": [
+                    {
+                        "name": "Бердянский городской отдел регистрации актов гражданского состояния",
+                        "category": "Государственные службы"
+                    }
+                ],
+                "address": "Горбенко, 1"
+            },
+            "geometry": {
+                "coordinates": [
+                    36.788059,
+                    46.753012
+                ],
+                "type": "Point"
+            },
+            "type": "Feature"
+        },
+        {
+            "properties": {
+                "orgs": [
+                    {
+                        "name": "Бердянский городской отдел ГУНП Украины",
+                        "category": "Милиция и службы охраны"
+                    },
+                    {
+                        "name": "Бердянский отдел государственной службы охраны УГСО при УМВД Украины",
+                        "category": "Милиция и службы охраны"
+                    }
+                ],
+                "address": "Р. Люксембург, 3"
+            },
+            "geometry": {
+                "coordinates": [
+                    36.790727,
+                    46.751352
+                ],
+                "type": "Point"
+            },
+            "type": "Feature"
+        },
+        {
+            "properties": {
+                "orgs": [
+                    {
+                        "name": "Исправительная колония",
+                        "category": "Государственные службы"
+                    }
+                ],
+                "address": "Промышленная, 1"
+            },
+            "geometry": {
+                "coordinates": [
+                    36.767119,
+                    46.79044
+                ],
+                "type": "Point"
+            },
+            "type": "Feature"
+        },
+        {
+            "properties": {
+                "orgs": [
+                    {
+                        "name": "Охранные системы ООО",
+                        "category": "Милиция и службы охраны"
+                    }
+                ],
+                "address": "Горького, 43"
+            },
+            "geometry": {
+                "coordinates": [
+                    36.790979,
+                    46.748233
+                ],
+                "type": "Point"
+            },
+            "type": "Feature"
+        },
+        {
+            "properties": {
+                "orgs": [
+                    {
+                        "name": "Районная прокуратура",
+                        "category": "Прокуратуры"
+                    }
+                ],
+                "address": "Свободы, 39"
+            },
+            "geometry": {
+                "coordinates": [
+                    36.784088,
+                    46.759446
+                ],
+                "type": "Point"
+            },
+            "type": "Feature"
+        },
+        {
+            "properties": {
+                "orgs": [
+                    {
+                        "name": "Отделение гражданства, иммиграции, регистрации физических лиц Бердянского ГО УМВД Украины",
+                        "category": "Милиция и службы охраны"
+                    }
+                ],
+                "address": "Дюмина, 65"
+            },
+            "geometry": {
+                "coordinates": [
+                    36.791814,
+                    46.756353
+                ],
+                "type": "Point"
+            },
+            "type": "Feature"
+        },
+        {
+            "properties": {
+                "orgs": [
+                    {
+                        "name": "Детская музыкальная школа",
+                        "category": "Образование"
+                    }
+                ],
+                "address": "Ульяновых, 39"
+            },
+            "geometry": {
+                "coordinates": [
+                    36.785705,
+                    46.755451
+                ],
+                "type": "Point"
+            },
+            "type": "Feature"
+        },
+        {
+            "properties": {
+                "orgs": [
+                    {
+                        "name": "Пожарная часть",
+                        "category": "Пожарная охрана"
+                    }
+                ],
+                "address": "Руденко, 6а"
+            },
+            "geometry": {
+                "coordinates": [
+                    36.78761,
+                    46.76502
+                ],
+                "type": "Point"
+            },
+            "type": "Feature"
+        },
+        {
+            "properties": {
+                "orgs": [
+                    {
+                        "name": "Бердянский РО УМВД Украины",
+                        "category": "Милиция и службы охраны"
+                    }
+                ],
+                "address": "Победы, 4"
+            },
+            "geometry": {
+                "coordinates": [
+                    36.791239,
+                    46.754679
+                ],
+                "type": "Point"
+            },
+            "type": "Feature"
+        },
+        {
+            "properties": {
+                "orgs": [
+                    {
+                        "name": "Природоохранная прокуратура",
+                        "category": "Прокуратуры"
+                    }
+                ],
+                "address": "Горького, 13"
+            },
+            "geometry": {
+                "coordinates": [
+                    36.781825,
+                    46.753809
+                ],
+                "type": "Point"
+            },
+            "type": "Feature"
+        },
+        {
+            "properties": {
+                "orgs": [
+                    {
+                        "name": "Межрайонное управление юстиции",
+                        "category": "Государственные службы"
+                    }
+                ],
+                "address": "Свердлова, 10"
+            },
+            "geometry": {
+                "coordinates": [
+                    36.791194,
+                    46.748832
+                ],
+                "type": "Point"
+            },
+            "type": "Feature"
+        },
+        {
+            "properties": {
+                "orgs": [
+                    {
+                        "name": "Рота ДПС №4 г. Бердянска",
+                        "category": "Милиция и службы охраны"
+                    },
+                    {
+                        "name": "Добровольное пожарное общество",
+                        "category": "Пожарная охрана"
+                    }
+                ],
+                "address": "Куйбышева, 3"
+            },
+            "geometry": {
+                "coordinates": [
+                    36.776983,
+                    46.7616
+                ],
+                "type": "Point"
+            },
+            "type": "Feature"
+        },
+        {
+            "properties": {
+                "orgs": [
+                    {
+                        "name": "Архивный отдел Бердянской райгосадминистрации",
+                        "category": "Архивы"
+                    }
+                ],
+                "address": "Мелитопольское шоссе, 4"
+            },
+            "geometry": {
+                "coordinates": [
+                    36.784403,
+                    46.764792
+                ],
+                "type": "Point"
+            },
+            "type": "Feature"
+        },
+        {
+            "properties": {
+                "orgs": [
+                    {
+                        "name": "Государственная регистрационная служба в Бердянске",
+                        "category": "Администрации, городская и районная"
+                    }
+                ],
+                "address": "улица Правды, 80-а"
+            },
+            "geometry": {
+                "coordinates": [
+                    36.800016,
+                    46.763162
+                ],
+                "type": "Point"
+            },
+            "type": "Feature"
+        },
+        {
+            "properties": {
+                "orgs": [
+                    {
+                        "name": "Горрайонное управление юстиции",
+                        "category": "Государственные службы"
+                    }
+                ],
+                "address": "Шмидта, 20"
+            },
+            "geometry": {
+                "coordinates": [
+                    36.787825,
+                    46.752191
+                ],
+                "type": "Point"
+            },
+            "type": "Feature"
+        },
+        {
+            "properties": {
+                "orgs": [
+                    {
+                        "name": "Фонд поддержки малого бизнеса \"Надежда Украины\"",
+                        "category": "Фонды"
+                    }
+                ],
+                "address": "Шевченко, 11"
+            },
+            "geometry": {
+                "coordinates": [
+                    36.792685,
+                    46.757896
+                ],
+                "type": "Point"
+            },
+            "type": "Feature"
+        }
+    ]
+}

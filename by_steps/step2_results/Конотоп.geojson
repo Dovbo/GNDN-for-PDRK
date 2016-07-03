@@ -1,0 +1,838 @@
+{
+    "features": [
+        {
+            "properties": {
+                "address": "улица Фрунзе, 21",
+                "orgs": [
+                    {
+                        "name": "Инспекция Гостехнадзора",
+                        "category": "Инспекции "
+                    },
+                    {
+                        "name": "ЗАГС(районный)",
+                        "category": "РАГСы (ЗАГСы)"
+                    }
+                ]
+            },
+            "geometry": {
+                "coordinates": [
+                    33.218091,
+                    51.244526
+                ],
+                "type": "Point"
+            },
+            "type": "Feature"
+        },
+        {
+            "properties": {
+                "address": "улица Мира, 21-а",
+                "orgs": [
+                    {
+                        "name": "Котельная № 9",
+                        "category": "Жилищно-коммунальные предприятия (ЖКХ)"
+                    }
+                ]
+            },
+            "geometry": {
+                "coordinates": [
+                    33.209863,
+                    51.238938
+                ],
+                "type": "Point"
+            },
+            "type": "Feature"
+        },
+        {
+            "properties": {
+                "address": "улица Г.Тхора, 26",
+                "orgs": [
+                    {
+                        "name": "Инспекция по карантину растений",
+                        "category": "Инспекции "
+                    },
+                    {
+                        "name": "Отдел Государственной Миграционной Службы(паспортный стол)",
+                        "category": "Паспортные службы"
+                    }
+                ]
+            },
+            "geometry": {
+                "coordinates": [
+                    33.218055,
+                    51.237776
+                ],
+                "type": "Point"
+            },
+            "type": "Feature"
+        },
+        {
+            "properties": {
+                "address": "улица Интернатная, 122",
+                "orgs": [
+                    {
+                        "name": "Конотопская санаторная школа-интернат",
+                        "category": "Детские дома и приюты"
+                    }
+                ]
+            },
+            "geometry": {
+                "coordinates": [
+                    33.240325,
+                    51.228166
+                ],
+                "type": "Point"
+            },
+            "type": "Feature"
+        },
+        {
+            "properties": {
+                "address": "улица Ватутина, 82",
+                "orgs": [
+                    {
+                        "name": "почта 41602 (пошта 41602)",
+                        "category": "Почта"
+                    }
+                ]
+            },
+            "geometry": {
+                "coordinates": [
+                    33.184638,
+                    51.227957
+                ],
+                "type": "Point"
+            },
+            "type": "Feature"
+        },
+        {
+            "properties": {
+                "address": "площадь Революции, 2",
+                "orgs": [
+                    {
+                        "name": "почта 41626 (пошта 41626)",
+                        "category": "Почта"
+                    }
+                ]
+            },
+            "geometry": {
+                "coordinates": [
+                    33.209863,
+                    51.238938
+                ],
+                "type": "Point"
+            },
+            "type": "Feature"
+        },
+        {
+            "properties": {
+                "address": "улица Успенско-Троицкая, 136",
+                "orgs": [
+                    {
+                        "name": "Конотопська міжрайонна прокуратура",
+                        "category": "Прокуратура"
+                    }
+                ]
+            },
+            "geometry": {
+                "coordinates": [
+                    33.174038,
+                    51.240714
+                ],
+                "type": "Point"
+            },
+            "type": "Feature"
+        },
+        {
+            "properties": {
+                "address": ", доб. 109",
+                "orgs": [
+                    {
+                        "name": "Справочное бюро",
+                        "category": "Справочные службы"
+                    }
+                ]
+            },
+            "geometry": {
+                "coordinates": [
+                    33.209863,
+                    51.238938
+                ],
+                "type": "Point"
+            },
+            "type": "Feature"
+        },
+        {
+            "properties": {
+                "address": "улица Выровская, 19",
+                "orgs": [
+                    {
+                        "name": "Центр ГАИ(МРЕО)",
+                        "category": "Госавтоинспекция"
+                    },
+                    {
+                        "name": "ГАИ",
+                        "category": "Госавтоинспекция"
+                    }
+                ]
+            },
+            "geometry": {
+                "coordinates": [
+                    33.203323,
+                    51.253772
+                ],
+                "type": "Point"
+            },
+            "type": "Feature"
+        },
+        {
+            "properties": {
+                "address": "квартал Хутор железнодорожный, 1, 1км.",
+                "orgs": [
+                    {
+                        "name": "ВЧ А 1880",
+                        "category": "Воинские части"
+                    }
+                ]
+            },
+            "geometry": {
+                "coordinates": [
+                    33.231261,
+                    51.263754
+                ],
+                "type": "Point"
+            },
+            "type": "Feature"
+        },
+        {
+            "properties": {
+                "address": "улица Деповская, 84",
+                "orgs": [
+                    {
+                        "name": "ЖЕК «Порт»",
+                        "category": "Жилищно-коммунальные предприятия (ЖКХ)"
+                    }
+                ]
+            },
+            "geometry": {
+                "coordinates": [
+                    33.173984,
+                    51.236028
+                ],
+                "type": "Point"
+            },
+            "type": "Feature"
+        },
+        {
+            "properties": {
+                "address": "улица Фрунзе, 20",
+                "orgs": [
+                    {
+                        "name": "Конотопський міськрайцентр зайнятості",
+                        "category": "Центры занятости"
+                    }
+                ]
+            },
+            "geometry": {
+                "coordinates": [
+                    33.217768,
+                    51.245388
+                ],
+                "type": "Point"
+            },
+            "type": "Feature"
+        },
+        {
+            "properties": {
+                "address": "улица Клубная, 8",
+                "orgs": [
+                    {
+                        "name": "Автостанция Конотоп",
+                        "category": "Автовокзалы"
+                    }
+                ]
+            },
+            "geometry": {
+                "coordinates": [
+                    33.185958,
+                    51.229221
+                ],
+                "type": "Point"
+            },
+            "type": "Feature"
+        },
+        {
+            "properties": {
+                "address": "проспект Мира, 8",
+                "orgs": [
+                    {
+                        "name": "Конотопская Городская Спасательно-Водолазная Служба",
+                        "category": "Аварийные службы"
+                    },
+                    {
+                        "name": "Городской Совет",
+                        "category": "Городской совет"
+                    }
+                ]
+            },
+            "geometry": {
+                "coordinates": [
+                    33.207419,
+                    51.238791
+                ],
+                "type": "Point"
+            },
+            "type": "Feature"
+        },
+        {
+            "properties": {
+                "address": "проспект Мира, 2",
+                "orgs": [
+                    {
+                        "name": "Конотопская Объединенная Государственная Налоговая Инспекция",
+                        "category": "Налоговые инспекции"
+                    }
+                ]
+            },
+            "geometry": {
+                "coordinates": [
+                    33.212324,
+                    51.241199
+                ],
+                "type": "Point"
+            },
+            "type": "Feature"
+        },
+        {
+            "properties": {
+                "address": "улица Красногорская, 8",
+                "orgs": [
+                    {
+                        "name": "ЖЕК «Красногорское»",
+                        "category": "Жилищно-коммунальные предприятия (ЖКХ)"
+                    }
+                ]
+            },
+            "geometry": {
+                "coordinates": [
+                    33.214741,
+                    51.243719
+                ],
+                "type": "Point"
+            },
+            "type": "Feature"
+        },
+        {
+            "properties": {
+                "address": "улица Садовая, 45",
+                "orgs": [
+                    {
+                        "name": "ЖЕК «Центральный»",
+                        "category": "Жилищно-коммунальные предприятия (ЖКХ)"
+                    }
+                ]
+            },
+            "geometry": {
+                "coordinates": [
+                    33.19822,
+                    51.231121
+                ],
+                "type": "Point"
+            },
+            "type": "Feature"
+        },
+        {
+            "properties": {
+                "address": "улица М. Немолота, 8",
+                "orgs": [
+                    {
+                        "name": "Конотопская Специальная Общеобразовательная школа-интернат",
+                        "category": "Детские дома и приюты"
+                    }
+                ]
+            },
+            "geometry": {
+                "coordinates": [
+                    33.222888,
+                    51.225842
+                ],
+                "type": "Point"
+            },
+            "type": "Feature"
+        },
+        {
+            "properties": {
+                "address": "улица Свободы, 3",
+                "orgs": [
+                    {
+                        "name": "ВЧ-9953(Пограничники)",
+                        "category": "Воинские части"
+                    }
+                ]
+            },
+            "geometry": {
+                "coordinates": [
+                    33.191375,
+                    51.223851
+                ],
+                "type": "Point"
+            },
+            "type": "Feature"
+        },
+        {
+            "properties": {
+                "address": "улица Рябошапко, 22",
+                "orgs": [
+                    {
+                        "name": "почта 41601 (пошта 41601)",
+                        "category": "Почта"
+                    }
+                ]
+            },
+            "geometry": {
+                "coordinates": [
+                    33.167678,
+                    51.243178
+                ],
+                "type": "Point"
+            },
+            "type": "Feature"
+        },
+        {
+            "properties": {
+                "address": "улица Профессиональная, 3",
+                "orgs": [
+                    {
+                        "name": "почта 41606 (пошта 41606)",
+                        "category": "Почта"
+                    }
+                ]
+            },
+            "geometry": {
+                "coordinates": [
+                    33.188609,
+                    51.22063
+                ],
+                "type": "Point"
+            },
+            "type": "Feature"
+        },
+        {
+            "properties": {
+                "address": "улица Батуринская, 64",
+                "orgs": [
+                    {
+                        "name": "Конотопское управление по эксплуатации газового хозяйства",
+                        "category": "Аварийные службы"
+                    }
+                ]
+            },
+            "geometry": {
+                "coordinates": [
+                    33.195984,
+                    51.251201
+                ],
+                "type": "Point"
+            },
+            "type": "Feature"
+        },
+        {
+            "properties": {
+                "address": "улица Строителей, 28",
+                "orgs": [
+                    {
+                        "name": "почта 41612 (пошта 41612)",
+                        "category": "Почта"
+                    }
+                ]
+            },
+            "geometry": {
+                "coordinates": [
+                    33.204796,
+                    51.260823
+                ],
+                "type": "Point"
+            },
+            "type": "Feature"
+        },
+        {
+            "properties": {
+                "address": "улица Строителей, 12",
+                "orgs": [
+                    {
+                        "name": "ЖЕК «Житлосервис»",
+                        "category": "Жилищно-коммунальные предприятия (ЖКХ)"
+                    }
+                ]
+            },
+            "geometry": {
+                "coordinates": [
+                    33.200107,
+                    51.258506
+                ],
+                "type": "Point"
+            },
+            "type": "Feature"
+        },
+        {
+            "properties": {
+                "address": "улица Садовая, 8",
+                "orgs": [
+                    {
+                        "name": "Конотопский межрайонный суд",
+                        "category": "Суды"
+                    }
+                ]
+            },
+            "geometry": {
+                "coordinates": [
+                    33.204634,
+                    51.237308
+                ],
+                "type": "Point"
+            },
+            "type": "Feature"
+        },
+        {
+            "properties": {
+                "address": "улица Клубная, 87",
+                "orgs": [
+                    {
+                        "name": "почта 41608 (пошта 41608)",
+                        "category": "Почта"
+                    }
+                ]
+            },
+            "geometry": {
+                "coordinates": [
+                    33.183183,
+                    51.238278
+                ],
+                "type": "Point"
+            },
+            "type": "Feature"
+        },
+        {
+            "properties": {
+                "address": ", доб. 101",
+                "orgs": [
+                    {
+                        "name": "МЧС(пожарная служба)",
+                        "category": "Экстренные службы"
+                    }
+                ]
+            },
+            "geometry": {
+                "coordinates": [
+                    33.209863,
+                    51.238938
+                ],
+                "type": "Point"
+            },
+            "type": "Feature"
+        },
+        {
+            "properties": {
+                "address": "улица Г.Тхора, 31",
+                "orgs": [
+                    {
+                        "name": "Управление водопроводно-канализационного хозяйства",
+                        "category": "Аварийные службы"
+                    }
+                ]
+            },
+            "geometry": {
+                "coordinates": [
+                    33.218612,
+                    51.237398
+                ],
+                "type": "Point"
+            },
+            "type": "Feature"
+        },
+        {
+            "properties": {
+                "address": "улица Мира, 4",
+                "orgs": [
+                    {
+                        "name": "почта 41615 (пошта 41615)",
+                        "category": "Почта"
+                    }
+                ]
+            },
+            "geometry": {
+                "coordinates": [
+                    33.209863,
+                    51.238938
+                ],
+                "type": "Point"
+            },
+            "type": "Feature"
+        },
+        {
+            "properties": {
+                "address": "улица Конотопских Партизан, 11/1",
+                "orgs": [
+                    {
+                        "name": "почта 41605 (пошта 41605)",
+                        "category": "Почта"
+                    }
+                ]
+            },
+            "geometry": {
+                "coordinates": [
+                    33.234387,
+                    51.251731
+                ],
+                "type": "Point"
+            },
+            "type": "Feature"
+        },
+        {
+            "properties": {
+                "address": "улица Б.Хмельницкого, 151",
+                "orgs": [
+                    {
+                        "name": "Сумыоблэнерго",
+                        "category": "Аварийные службы"
+                    }
+                ]
+            },
+            "geometry": {
+                "coordinates": [
+                    33.176149,
+                    51.203788
+                ],
+                "type": "Point"
+            },
+            "type": "Feature"
+        },
+        {
+            "properties": {
+                "address": "улица Садовая, 12",
+                "orgs": [
+                    {
+                        "name": "Бюро технической инвентаризации(БТИ)",
+                        "category": "БТИ"
+                    }
+                ]
+            },
+            "geometry": {
+                "coordinates": [
+                    33.204437,
+                    51.236784
+                ],
+                "type": "Point"
+            },
+            "type": "Feature"
+        },
+        {
+            "properties": {
+                "address": "проспект Мира, 14",
+                "orgs": [
+                    {
+                        "name": "Конотопський міський відділ",
+                        "category": "РОВД"
+                    }
+                ]
+            },
+            "geometry": {
+                "coordinates": [
+                    33.206117,
+                    51.23649
+                ],
+                "type": "Point"
+            },
+            "type": "Feature"
+        },
+        {
+            "properties": {
+                "address": "улица Батуринская, 4",
+                "orgs": [
+                    {
+                        "name": "Конотопський виправний центр (№130)",
+                        "category": "Тюрьмы, колонии, СИЗО"
+                    }
+                ]
+            },
+            "geometry": {
+                "coordinates": [
+                    33.216097,
+                    51.24863
+                ],
+                "type": "Point"
+            },
+            "type": "Feature"
+        },
+        {
+            "properties": {
+                "address": "улица Соборная, 23",
+                "orgs": [
+                    {
+                        "name": "Районная администрация(райисполком)",
+                        "category": "Районные администрации"
+                    }
+                ]
+            },
+            "geometry": {
+                "coordinates": [
+                    33.217238,
+                    51.244543
+                ],
+                "type": "Point"
+            },
+            "type": "Feature"
+        },
+        {
+            "properties": {
+                "address": "улица Садовая, 4",
+                "orgs": [
+                    {
+                        "name": "Управление СБУ в Сумской обл.",
+                        "category": "СБУ"
+                    }
+                ]
+            },
+            "geometry": {
+                "coordinates": [
+                    33.204715,
+                    51.238255
+                ],
+                "type": "Point"
+            },
+            "type": "Feature"
+        },
+        {
+            "properties": {
+                "address": "улица Свободы, 23",
+                "orgs": [
+                    {
+                        "name": "Конотоп железнодорожный вокзал",
+                        "category": "Ж/Д вокзалы"
+                    }
+                ]
+            },
+            "geometry": {
+                "coordinates": [
+                    33.187477,
+                    51.224003
+                ],
+                "type": "Point"
+            },
+            "type": "Feature"
+        },
+        {
+            "properties": {
+                "address": "улица Фрунзе, 11",
+                "orgs": [
+                    {
+                        "name": "почта 41607 (пошта 41607)",
+                        "category": "Почта"
+                    }
+                ]
+            },
+            "geometry": {
+                "coordinates": [
+                    33.218469,
+                    51.246065
+                ],
+                "type": "Point"
+            },
+            "type": "Feature"
+        },
+        {
+            "properties": {
+                "address": "улица Ватутина, 13",
+                "orgs": [
+                    {
+                        "name": "ЗАГС(городской)",
+                        "category": "РАГСы (ЗАГСы)"
+                    }
+                ]
+            },
+            "geometry": {
+                "coordinates": [
+                    33.201957,
+                    51.236823
+                ],
+                "type": "Point"
+            },
+            "type": "Feature"
+        },
+        {
+            "properties": {
+                "address": "улица Садовая, 41",
+                "orgs": [
+                    {
+                        "name": "Военный комиссариат(военкомат)",
+                        "category": "Военные комиссариаты"
+                    }
+                ]
+            },
+            "geometry": {
+                "coordinates": [
+                    33.199523,
+                    51.232199
+                ],
+                "type": "Point"
+            },
+            "type": "Feature"
+        },
+        {
+            "properties": {
+                "address": "улица Г.Тхора, 6",
+                "orgs": [
+                    {
+                        "name": "Государственная исполнительная служба",
+                        "category": "Исполнительные службы"
+                    }
+                ]
+            },
+            "geometry": {
+                "coordinates": [
+                    33.218253,
+                    51.239507
+                ],
+                "type": "Point"
+            },
+            "type": "Feature"
+        },
+        {
+            "properties": {
+                "address": "улица Волочаевская, 1",
+                "orgs": [
+                    {
+                        "name": "Областная семенная инспекция",
+                        "category": "Инспекции "
+                    }
+                ]
+            },
+            "geometry": {
+                "coordinates": [
+                    33.214516,
+                    51.247976
+                ],
+                "type": "Point"
+            },
+            "type": "Feature"
+        },
+        {
+            "properties": {
+                "address": "улица Свободы, 9",
+                "orgs": [
+                    {
+                        "name": "Военная комендатура",
+                        "category": "Воинские части"
+                    }
+                ]
+            },
+            "geometry": {
+                "coordinates": [
+                    33.191025,
+                    51.224556
+                ],
+                "type": "Point"
+            },
+            "type": "Feature"
+        }
+    ],
+    "type": "FeatureCollection"
+}
