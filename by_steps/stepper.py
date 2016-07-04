@@ -21,8 +21,7 @@ class Stepper:
             os.makedirs(self.results_dir)
 
     def json_opener(self, filename):
-        city_name = filename.split('/')[1].split('.')[0]
-        print('process_city ', city_name)
+        city_name = filename.split('/')[1].split('.')[0]        
         with open(filename, 'r') as fl:
             addresses = json.loads(fl.read())
         return city_name, addresses
