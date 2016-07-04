@@ -13,7 +13,7 @@ class Step4(stepper.Stepper):
 
     def get_items(self):
         address_files = os.listdir(self.prev_step_results)
-        items = [os.path.join(self.prev_step_results, x) for x in address_files if not x.endswith('_skipped.json')]
+        items = [os.path.join(self.prev_step_results, x) for x in address_files if not x.endswith('.geojson')]
         return items
 
     def process_city(self, filename):
@@ -42,4 +42,4 @@ class Step4(stepper.Stepper):
             fl.write(json.dumps(summary, indent=4, ensure_ascii=False))
 
 if __name__ == '__main__':
-    Step3().launcher()
+    Step4().launcher()
