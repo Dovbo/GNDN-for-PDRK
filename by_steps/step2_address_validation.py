@@ -18,6 +18,7 @@ class Step2(stepper.Stepper):
 
     def process_city(self, filename):
         city_name, addresses = self.json_opener(filename)
+        print('process_city ', city_name)
         valid, skipped = {}, {}
 
         for address in addresses:
