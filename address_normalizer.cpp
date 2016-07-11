@@ -1,6 +1,3 @@
-// address_normalizer.cpp: определяет точку входа для консольного приложения.
-//
-
 #include "stdafx.h"
 #include "conio.h"
 #include <iostream>
@@ -28,7 +25,7 @@ int main(int argc, char** argv)
 		}
 	}
 	s = spc * 2 - 2;
-	if (spc == 0) //если пробелов нет просто проверяем строку
+	if (spc == 0)
 	{
 		for (count1 = 0; count1 < 29; count1++)
 		{
@@ -40,7 +37,7 @@ int main(int argc, char** argv)
 			}
 		}
 	}
-	if (spc == 1) //если пробел 1 то проверяем первое слово
+	if (spc == 1)
 	{
 		for (count1 = 0; count1 < strlen(add); count1++)
 		{
@@ -64,7 +61,7 @@ int main(int argc, char** argv)
 			}
 		}
 	}
-	if (spc >= 2) //если пробелов 2 и больше то проверяем каждое слово(каждое пространство между пробелами)
+	if (spc >= 2)
 	{
 		for (count1 = 0; count1 < strlen(add); count1++)
 		{
@@ -81,7 +78,7 @@ int main(int argc, char** argv)
 		b = tmp;
 		for (count5 = 0; count5 < 29; count5++)
 		{
-			if (b == street_types[count5]) //проверка первого слова
+			if (b == street_types[count5])
 			{
 				cout << "PEREMOHA" << endl;
 				break;
